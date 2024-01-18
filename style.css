@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(140, 233, 233);
+    background-image: url("backimage.png");
+    background-size: cover;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .stopwatch {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(22, 21, 21, 0.795);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #time {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fdf7f7;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #lap-times {
+    font-size: 20px;
+  }
+  
